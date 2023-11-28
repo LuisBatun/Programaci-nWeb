@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="disenioPag.css">
+    <title>Contacto "Take It Cheesy"</title> <!-- Título de la página -->
+</head>
+<body>
+    <!-- Barra lateral con el logo y las opciones de navegación -->
+    <div id="barraLateral" style="margin-top: -45px;">
+        <img src="tacoLogo.png" style="position: relative; margin-top: -350px;transform: scale(0.35);">
+        <p id="textoNegocio" style="line-height: 1.0; margin-top: -180px;">Take it<br>Cheesy</p>
+        <a href="paginaPrincipal.html" style="top: 100px;">INICIO</a>
+        <a href="menuComida.html">MENU</a> 
+        <a href="informacionContacto.html">CONTACTO</a>
+        <a href="https://maps.app.goo.gl/2HDxgteoSpLg9VvF8" target="_blank">UBICACION</a>
+    </div>
+
+    <!-- Título del formulario -->
+    <h1 class="titulosMenu" style="margin-left: 190px;">¡Contactate con nosotros!</h1>
+    <!-- Formulario de contacto con campos para nombre, email, teléfono, empresa, comentarios y botón de envío -->
+    <form>
+        <label for="nombre" style="color: white;">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email" style="color: white;">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefono" style="color: white;">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono">
+
+        <label for="empresa" style="color: white;">Empresa</label>
+        <input type="text" id="empresa" name="empresa">
+
+        <label for="comentarios" style="color: white;">Comentarios</label>
+        <textarea id="comentarios" name="comentarios" style="height:200px" required></textarea>
+        
+        <input type="submit" value="Enviar" style="margin-bottom: 30px;">
+    </form>
+
+    <!-- Barra de contacto con información de ubicación, WhatsApp y email -->
+    <div id="barraContacto">
+        <a href="https://maps.app.goo.gl/2HDxgteoSpLg9VvF8" target="_blank">Ubicacion: Calle Tucorazon es mi complemento #75, Del. Sabroso comer</a>
+        <br>
+        <br>
+        <a href="https://wa.me/+525527112023" target="_blank">WhatsApp: 5527112023</a>
+        <p>Email: takeitcheesycontacto@queso.com</p>
+    </div>
+</body>
+</html>

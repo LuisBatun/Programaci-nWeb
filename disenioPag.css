@@ -1,0 +1,196 @@
+body{
+    background-image: url("fondoPagPrincipal.jpg");
+    object-fit: cover;
+}
+
+#barraLateral{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 120vh;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.0;
+    margin-top: -10px;
+    margin-left: -10px;
+    float: left;
+}
+
+#barraLateral a {
+    color: white;
+    text-decoration: none;
+    margin-left: 5px; 
+}
+
+#inicioPagina{
+    background-image: url('portadaInicio.jpg');
+    background-attachment: relative; 
+    background-size: cover;
+    height: 900px; 
+    width: 1350px; 
+    margin-left: 190px;
+    margin-top: -10px;
+    position: static;
+}
+
+#sobreNosotros{
+    background-color: rgb(16, 16, 16);
+    width: 1350px;
+    height: 400px;
+    margin-top: -20px;
+    margin-left: 190px;
+    position: relative;
+}
+
+#rectanguloBienvenida{
+    background: rgb(255,253,240);
+    background: radial-gradient(circle, rgba(255,253,240,1) 48%, rgba(255,225,83,1) 100%);
+    width: 270px;
+    height:150px;
+    margin-top: 50px;
+    left: 1200px;
+    position: absolute;
+    border-radius: 30px;
+}
+
+#menu{
+    width: 1350px;
+    height: 120px;
+    margin-left: 190px;
+    position: relative;
+}
+
+
+.textoparaOrdenar{
+    text-align: center; 
+    color: wheat; 
+    font-size: 40px;
+}
+
+.textoparaOrdenar:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+#textoNegocio{
+    background: rgb(254,145,0);
+    background: linear-gradient(90deg, rgba(254,145,0,1) 0%, rgba(249,255,0,1) 55%);
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;  
+}
+
+.textoBlanco{
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+#barraContacto{
+    font-family: 'Garamond', sans-serif;
+    font-size: 20px;
+    background-color: rgb(16, 16, 16);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    width: 1350px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 190px;
+    position: relative;
+    bottom: 0;
+}
+
+
+/* Aqui se comienza los estilos aplicados para el HTML menuComida que trata sobre el menu */
+
+.divisiones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.columnas {
+    display: flex;
+    justify-content: center;
+}
+
+.cuadro {
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+    background-color: black;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.cuadro:hover{
+    background: rgb(9, 9, 9);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.titulosMenu {
+    background: rgb(255,241,169);
+    background: radial-gradient(circle, rgba(255,241,169,1) 35%, rgba(238,196,0,1) 100%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+
+/* Aqui se comienza los estilos aplicados para el HTML informacionContacto que trata sobre como contactarte con la empresa*/
+
+form {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+	width: 100%;
+	padding: 12px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+}
